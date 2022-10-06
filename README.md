@@ -33,6 +33,7 @@ Matty - [@mosk_i](https://twitter.com/moski_dev) - For writing the script
 Original macOS script can be found [here.](https://github.com/MatthewPierson/deverser/)
 
 Superuser1958 - changes for Linux
+
 RealKGB - changes for iOS
 
 Tihmstar - [@tihmstar](https://twitter.com/tihmstar) - For creating img4tool
