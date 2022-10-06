@@ -29,7 +29,7 @@ else
 fi
 echo "[!] Please enter the device's root password (Default is 'alpine')..."
 dd if=/dev/rdisk1 of=/var/mobile/Documents/deverser/dump.raw bs=256 count=$((0x4000)) >/dev/null 2>&1
-if [ -s /var/mobile/Documents/deverser/dump.raw ]
+if [ -s /var/mobile/Documents/deverser/dump.raw ]; then
 	rm dump.raw
 	dd if=/dev/rdisk2 of=/var/mobile/Documents/deverser/dump.raw bs=256 count=$((0x4000)) >/dev/null 2>&1
 fi
