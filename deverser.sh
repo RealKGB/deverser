@@ -46,5 +46,5 @@ generator=$(cat $ecid.dumped.shsh | grep "<string>0x" | cut -c10-27)
 echo "[!] SHSH should be dumped successfully at '$ecid.dumped.shsh' (The number in the filename is your devices ECID)!"
 echo "[!] Your Generator for the dumped SHSH is: $generator"
 echo "[@] Originally Written by Matty (@mosk_i), Modified by joshuah345 / Superuser#1958 & RealKGB / WhitetailAni#1287 - Enjoy!
-echo "I'm not the best at scripting, if you find any bugs please ping me in the r/jailbreak or Sileo server if you find any problems."
+echo "I'm not the best at scripting, if you find any bugs please ping me in the r/jailbreak or Sileo server if you find any problems.
 exit
