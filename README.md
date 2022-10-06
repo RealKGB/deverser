@@ -11,7 +11,7 @@ Even though this script will give you valid SHSH for the currently installed iOS
 
 ## Requirements
 
-A jailbroken iOS device
+A jailbroken iOS device on iOS 11+ - img4tool does not work on 32-bit iDevices.
 
 img4tool installed (get it from https://apt.procurs.us/)
 
