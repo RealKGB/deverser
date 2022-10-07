@@ -11,15 +11,16 @@ Even though this script will give you valid SHSH for the currently installed iOS
 
 ## Requirements
 
-A jailbroken iOS device on iOS 11+ - img4tool does not work on 32-bit iDevices.
+A jailbroken iOS device on iOS 11+ as img4tool does not work on 32-bit iDevices.
 
-img4tool installed (get it from https://apt.procurs.us/)
+img4tool and dependencies installed (get it from https://apt.procurs.us/)
 
 ## Usage (.sh file)
 
-1. Download the .sh and get it to your jailbroken device in some way. I use Filza's WebDAV server.
+1. Download the .sh and move it to your jailbroken device in some way
 2. Run the .sh in NewTerm 2
 3. Follow the instructions in the script
+4. Copy the dumped blob to cloud storage or a separate computer.
 
 ## Issues/Bugs/Fixes/Improvements
 
@@ -29,13 +30,10 @@ Any ideas/fixes/improvements can be sent in a pull request [here](https://github
 
 ## Credits
 
-Matty - [@mosk_i](https://twitter.com/moski_dev) - For writing the script
-, original macOS script can be found [here.](https://github.com/MatthewPierson/deverser/)
-
-Matty - [@mosk_i](https://twitter.com/moski_dev) - For writing the script
+Matty - [@mosk_i](https://twitter.com/moski_dev) - For writing the script, original macOS script can be found [here.](https://github.com/MatthewPierson/deverser/)
 
 Superuser1958 - changes for Linux
 
-RealKGB - changes for iOS
+RealKGB - port to iOS
 
 Tihmstar - [@tihmstar](https://twitter.com/tihmstar) - For creating img4tool
