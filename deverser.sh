@@ -2,6 +2,7 @@
 
 if [ ! -d "/var/mobile/Documents/deverser" ]; then
     mkdir /var/mobile/Documents/deverser
+fi
 
 cat << "intro"
 [!] Welcome to Déverser, a simple script to dump onboard SHSH (Blobs) with a valid Generator for iOS devices...
@@ -24,7 +25,7 @@ if command -v img4tool >/dev/null; then
     echo "[!] Found img4tool at $(command -v img4tool)!"
 else
     echo "[#] img4tool is not installed, please install it from your package manager. You may find it at https://apt.procurs.us/."
-    echo "[*] The script will now close."
+    echo "[#] The script will now close."
     exit
 fi
 echo "[!] Please enter the device's root password (Default is 'alpine')..."
